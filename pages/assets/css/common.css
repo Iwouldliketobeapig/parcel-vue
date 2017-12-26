@@ -1,0 +1,131 @@
+/**
+  reset.css
+  author : codedreamfy
+*/
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  border: none; outline: 0;
+  background: transparent;
+	-webkit-tap-highlight-color: transparent;
+}
+
+
+html {
+  box-sizing: border-box;
+  font-family:  -apple-system,"Helvetica Neue","Microsoft YaHei", Arial, SimSun,sans-serif;
+	line-height: 1;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html,body {
+  // -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+  // user-select: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none !important;
+}
+
+img,
+embed,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr,
+td,
+th {
+  padding: 0;
+  text-align: center;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none !important;
+	-webkit-tap-highlight-color: transparent;
+	color: inherit;
+}
+em,i { font-style: normal;}
+
+/* utils */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: ''; display: block;
+  clear: both; visibility: hidden;
+  font-size: 0; height: 0;
+}
+.text-overflow {
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  white-space: nowrap;
+}
+.hide { display: none;}
+
+html, body{
+  font-size: 14px;
+  color: #333333;
+  background: #eff5fc;
+}

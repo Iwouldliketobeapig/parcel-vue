@@ -1,0 +1,34 @@
+{
+  "name": "parcel-vue",
+  "version": "1.0.0",
+  "description": "parcel vue",
+  "scripts": {
+    "dev": "echo \"Error: no test specified\" && exit 1",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iwouldliketobeapig/parcel-vue.git"
+  },
+  "keywords": [
+    "parcel",
+    "vue"
+  ],
+  "author": "dutao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iwouldliketobeapig/parcel-vue/issues"
+  },
+  "homepage": "https://github.com/Iwouldliketobeapig/parcel-vue#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "glob": "^7.1.2",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.3.1",
+    "parcel-plugin-vue": "^1.4.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
+}
