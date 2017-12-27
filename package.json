@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "parcel vue",
   "scripts": {
-    "dev": "echo \"Error: no test specified\" && exit 1",
-    "build": ""
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "parcel",
-    "vue"
+    "vue",
+    "parcel vue",
+    "vue parcel"
   ],
   "author": "dutao",
   "license": "ISC",
