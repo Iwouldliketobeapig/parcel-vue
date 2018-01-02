@@ -7,6 +7,11 @@ this is a project of vue 、 parcel and sass
 npm run dev
 ```
 
+## watch
+```text
+npm run watch
+```
+
 ## build
 ```text
 npm run build
