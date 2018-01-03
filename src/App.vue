@@ -25,8 +25,8 @@
     }
     &-resources{
       &-doc{
-        display: flex;
         margin-bottom: 12px;
+        display: flex;
       }
     }
   }

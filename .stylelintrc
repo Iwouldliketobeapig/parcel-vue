@@ -1,0 +1,14 @@
+{ 
+  "processors": ["stylelint-processor-html"],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-scss"
+	],
+  "extends": "css-properties-sorting",
+  "rules": {
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ]
+  }
+}
