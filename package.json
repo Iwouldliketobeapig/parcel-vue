@@ -26,6 +26,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "chalk": "^2.3.0",
     "express": "^4.16.2",
     "glob": "^7.1.2",
     "http-proxy-middleware": "^0.17.4",

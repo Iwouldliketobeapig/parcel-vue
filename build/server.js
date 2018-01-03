@@ -1,4 +1,5 @@
 let Bundler = require('parcel-bundler');
+const chalk = require('chalk');
 let express = require('express');
 let proxyMiddleware = require('http-proxy-middleware');
 const config = require('../config/default');
@@ -12,13 +13,11 @@ let app = express();
 app.use('^/api/v2/**', proxyMiddleware({
   target: config.proxy.target
 }))
-
+console.log('Server running at ' + chalk.blue('http://localhost:1234/'));
 app.use(bundler.middleware());
-
 module.exports = app.listen(config.port, function (err) {
   if (err) {
     console.log(err);
     return;
   }
-  console.log(`listen at ${config.port}`);
 });
